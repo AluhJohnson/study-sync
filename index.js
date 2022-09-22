@@ -15,5 +15,6 @@ app.get('/app.js', function(req, res) {
   res.sendFile(path.join(__dirname + '/app.js'));
 });
 
-console.log(`PLANNING TO USE PORT: ${port}`)
+console.log(`PLANNING TO USE PORT: ${8081}`)
 app.listen(port, '0.0.0.0', () => console.log(`Listening on port ${port}!`))
+//app.listen(8081, '0.0.0.0', () => console.log(`Listening on port ${8081}!`))
